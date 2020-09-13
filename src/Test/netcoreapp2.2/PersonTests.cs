@@ -16,6 +16,7 @@ namespace Tests
         public void IntroduceYourself()
         {
             string name = username.IsNullOrEmpty("");
+            int id = cedula.IsValid();
         }
     }
 }
